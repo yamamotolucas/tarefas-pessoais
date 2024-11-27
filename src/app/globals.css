@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.telaForm {
+    @apply flex flex-col items-center justify-center h-screen bg-ciano text-branco;
+  }
+  
+  .input-form {
+    @apply mb-4 w-full max-w-sm;
+  }
+  
+  .input-form label {
+    @apply block mb-2 text-sm font-medium;
+  }
+  
+  .input-form input {
+    @apply w-full px-4 py-2 border border-cinza rounded-md focus:outline-none focus:ring-2 focus:ring-ciano-claro;
+  }
+  
+  input[type="submit"] {
+    @apply px-6 py-2 mt-4 bg-ciano-claro text-branco font-semibold rounded hover:bg-ciano-claro;
+  }
+  
+  
