@@ -1,7 +1,7 @@
-import Login from "@/components/Login/Login";
+import Cabecalho from "@/components/Cabecalho/Cabecalho";
 
 export default function Home() {
   return (
-    <Login/>
+    <Cabecalho/>
   );
 }

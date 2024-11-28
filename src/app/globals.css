@@ -21,5 +21,15 @@
   input[type="submit"] {
     @apply px-6 py-2 mt-4 bg-ciano-claro text-branco font-semibold rounded hover:bg-ciano-claro;
   }
+
+  .cabecalho-aplicacao {
+    @apply py-10 px-5 flex justify-between text-branco;
+  }
   
+  .cabecalho-menu {
+    @apply flex gap-20 mr-10;
+  }
   
+.item-menu {
+  @apply hover:text-cinza;
+}
